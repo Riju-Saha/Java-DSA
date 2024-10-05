@@ -139,8 +139,8 @@ class linearLinkedList {
 
     public static void main(String[] args) {
         int num,pos;
-        Scanner sc = new Scanner(System.in);
         @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
         linearLinkedList list = new linearLinkedList();
 
         while (true) {
