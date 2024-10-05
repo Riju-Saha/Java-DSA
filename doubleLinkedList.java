@@ -131,7 +131,16 @@ public class doubleLinkedList {
     }
 
     void printList() {
-        
+        if (head == null) {
+            System.out.println("Empty List");
+        } else {
+            Node currNode = head;
+            while (currNode.next != null) {
+                System.out.print(currNode.val + " -> ");
+                currNode = currNode.next;
+            }
+            System.out.println(currNode.val);
+        }
     }
 
     public static void main(String[] args) {
