@@ -147,6 +147,7 @@ public class circularLinkedList {
 
     public static void main(String[] args) {
         int num,pos;
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         circularLinkedList list = new circularLinkedList();
 
