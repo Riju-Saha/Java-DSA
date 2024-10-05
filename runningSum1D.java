@@ -26,7 +26,6 @@ import java.util.*;
 
 public class runningSum1D {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		int nums[] = { 1, 2, 3, 4 };
 		// int ar[] = new int[4];
 		int sum = 0;
